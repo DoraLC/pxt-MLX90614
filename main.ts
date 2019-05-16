@@ -1,5 +1,3 @@
-//% color=#F79532 icon="\uf491" block="MLX90614"
-
 enum TemperatureLocation {
     //%block="Object"
     Object,
@@ -7,6 +5,7 @@ enum TemperatureLocation {
     Ambiant
 }
 
+//%color=#F79532 icon="\uf491" block="MLX90614"
 namespace MLX90614 {
     const addr = 0x5A
     const obTempAddr = 0x07
